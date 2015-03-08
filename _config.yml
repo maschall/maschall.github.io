@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Mark Schall
 locale:           en_US
-url:              
+url:              http://www.maschall.com
 
 
 # Jekyll configuration
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
+  name: Mark Schall
+  avatar: bio-photo.png
+  bio: ""
+  email: hello@maschall.com
+  disqus-shortname: maschall
+  twitter: maschall
   facebook: #username
   google:
     plus: #username
-    analytics: 
-    verify: 
+    analytics: UA-60451793-1
+    verify: gcDln25EK7t-wcn_S9H1xZG6W4MDnWEVfjU1HXqHjMs
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  github: maschall
+  stackoverflow: http://stackoverflow.com/users/123456/maschall
+  linkedin: maschall
   xing: #username
   instagram: #username
   lastfm: #username
@@ -57,4 +57,4 @@ owner:
   flickr: #username
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME"]
