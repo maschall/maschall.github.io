@@ -1,0 +1,13 @@
+<article class="{% page.layout %}">
+    {% include _title.html %}
+	{% if page.layout == "post" %}
+		{% include _byline.html %}
+	{% endif %}
+    <div class="article-wrap">
+      {{ content }}
+      {% include _social-share.html %}
+    </div><!-- /.article-wrap -->
+	
+	{% include _disqus_comments.html %}
+	
+  </article>
