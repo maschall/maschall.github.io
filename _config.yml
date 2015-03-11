@@ -3,11 +3,11 @@
 title:            Mark Schall
 locale:           en_US
 url:              http://www.maschall.com
-
+#url:			  http://127.0.0.1:4000
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   date
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -58,3 +58,17 @@ owner:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME"]
+
+# Default extensions
+post_ext: md
+page_ext: md
+draft_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+draft_layout: draft
+
+# Format titles with titlecase?
+titlecase: true
+
