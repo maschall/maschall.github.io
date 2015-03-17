@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Being a QA Taught Me"
+title: "Commiting Your Dependencies"
 modified:
 categories: 
 excerpt:

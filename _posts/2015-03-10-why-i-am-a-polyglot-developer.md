@@ -5,9 +5,9 @@ date: 2015-03-10T22:55:42-04:00
 modified:
 categories: 
 excerpt: Well I know there is some sort of ego involved, I am a polyglot developer for the ability to solve any problem.
-tags: []
+tags: [developer, polyglot, self]
 image:
-  feature:
+  teaser: http://otl.du.edu/wp-content/uploads/2012/11/php-code-300x199.png
 ---
 Well I know there is some sort of ego involved, I am a polyglot developer for the ability to solve any problem.  Being able to choose the right tools for a problem is very empowering.
 

@@ -1,0 +1,12 @@
+{% assign teaserPage = page %}
+{% if post %}
+	{% assign teaserPage = post %}
+{% endif %}
+
+<img src=
+{% if teaserPage.image.teaser contains 'http' %}
+      "{{ teaserPage.image.teaser }}"
+    {% else %}
+      "{{ site.url }}/images/{{ teaserPage.image.teaser }}"
+    {% endif %}
+	alt="{{ teaserPage.title }}"/>

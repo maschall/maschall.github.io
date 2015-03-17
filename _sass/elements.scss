@@ -22,7 +22,15 @@ figure {
 
 article img {
 	max-width: 100%;
-	height: auto;
+	height: 300px;
+	border-width: 0; 
+	vertical-align: middle; 
+	-ms-interpolation-mode: bicubic; 
+}
+
+article.excerpt img {
+	max-width: 100%;
+	height: 100px;
 	border-width: 0; 
 	vertical-align: middle; 
 	-ms-interpolation-mode: bicubic; 
