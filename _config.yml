@@ -4,6 +4,10 @@ title:            Mark Schall
 locale:           en_US
 url:              http://www.maschall.com
 
+image:
+  teaser:
+  feature:
+
 # Jekyll configuration
 
 permalink:   date

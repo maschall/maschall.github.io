@@ -3,12 +3,17 @@
 	{% assign teaserPage = post %}
 {% endif %}
 
+{% assign teaser = site.image.teaser %}
 {% if teaserPage.image.teaser %}
+	{% assign teaser = teaserPage.image.teaser %}
+{% endif %}
+
+{% if teaser %}
 	<img src=
-	{% if teaserPage.image.teaser contains 'http' %}
-      "{{ teaserPage.image.teaser }}"
+	{% if teaser contains 'http' %}
+      "{{ teaser }}"
     {% else %}
-      "{{ site.url }}/images/{{ teaserPage.image.teaser }}"
+      "{{ site.url }}/images/{{ teaser }}"
     {% endif %}
 	alt="{{ teaserPage.title }}"/>
 {% endif %}
