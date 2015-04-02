@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Always Be Ready to Ship"
+title: "An Agile-waterfall Process"
 modified:
 categories: 
 excerpt:
