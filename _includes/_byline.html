@@ -1,1 +1,6 @@
-<p class="byline">published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+{% assign bylinePage = page %}
+{% if post %}
+	{% assign bylinePage = post %}
+{% endif %}
+
+<p class="byline">published on <time datetime="{{ bylinePage.date | date_to_xmlschema }}">{{ bylinePage.date | date: "%B %d, %Y" }}</time>{% if bylinePage.modified %} and last modified on <time datetime="{{ bylinePage.modified | date: "%Y-%m-%d" }}">{{ bylinePage.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>

@@ -1,16 +1,23 @@
+{% assign articlePage = page %}
+{% if post %}
+	{% assign articlePage = post %}
+{% endif %}
+
+<!-- leave this as page.layout for home to view correctly -->
 <article class="{{ page.layout }}">
   {% include _title.html %}
-	{% if page.layout == "post" %}
+	{% if articlePage.layout == "post" %}
 		{% include _byline.html %}
 	{% endif %}
     <div class="article-wrap">
       <p>
         {% include _teaser.html %}
       </p>
-      {{ content }}
+      {{ articlePage.content }}
       {% include _social-share.html %}
     </div><!-- /.article-wrap -->
-	
-	{% include _disqus_comments.html %}
-	
-  </article>
+
+  {% if articlePage.layout == "page" %}
+	  {% include _disqus_comments.html %}
+  {% endif %}
+</article>
