@@ -34,33 +34,19 @@ owner:
   bio: "Polyglot developer with 8 years experience with Objective-C, .NET, Java, Swift, and Ruby, currently working at [Detroit Labs](http://www.detroitlabs.com)."
   email: hello@maschall.com
   disqus-shortname: maschall
-  twitter: maschall
-  facebook: #username
+  twitter: mark_schall
   google:
     plus: #username
     analytics: UA-60451793-1
     verify: gcDln25EK7t-wcn_S9H1xZG6W4MDnWEVfjU1HXqHjMs
     ad-client: 
-    ad-slot: 
-  bing-verify: 
+    ad-slot:  
   github: maschall
   stackoverflow: http://stackoverflow.com/users/123456/maschall
   linkedin: maschall
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "serve.bat"]
+exclude: ["Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME"]
 
 # Default extensions
 post_ext: md

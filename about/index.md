@@ -3,6 +3,7 @@ layout: page
 title: About
 tags: [about]
 modified:
+hideComments: true
 ---
 
 My name is Mark Schall, and this is my personal website. I am a professional polyglot developer with 8 years experience, currently working at [Detroit Labs](http://www.detroitlabs.com) an awesome company based in Detroit, MI. I've worked on native desktop applications for Windows and OS X, native mobile applications for iOS, Windows and Android, and lastly web applications for both .NET and Ruby.  I graduated from [Michigan State University](http://msu.edu) with a Masters in Computer Science.

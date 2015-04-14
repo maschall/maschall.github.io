@@ -4,6 +4,7 @@ title: {{ title }}
 permalink:
 modified:
 excerpt:
+hideComments: true
 image:
   feature:
 ---

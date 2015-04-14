@@ -13,11 +13,22 @@
       <p>
         {% include _teaser.html %}
       </p>
-      {{ articlePage.content }}
-      {% include _social-share.html %}
+
+      {% if page.layout == "post" %}
+        {{ content }}
+        
+        {% include _social-share.html %}
+      
+        <section id="disqus_thread"></section><!-- /#disqus_thread -->
+        
+        {% include _related_posts.html %}
+      {% else %}
+        {{ articlePage.content }}
+        
+        {% include _social-share.html %}
+      {% endif %}
+      
+      
     </div><!-- /.article-wrap -->
 
-  {% if articlePage.layout == "page" %}
-	  {% include _disqus_comments.html %}
-  {% endif %}
 </article>
