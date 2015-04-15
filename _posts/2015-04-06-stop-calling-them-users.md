@@ -10,7 +10,7 @@ image:
   teaser: user.jpg
 ---
 
-I'm not sure where I had first heard the idea to stop calling the people you make your product for "users", but it has always stucked with me. It may not seem like a big deal, to use a term like "user" to describe someone that uses your product, but consider that another term for user is somoene that uses drugs. Although developers may want their "players" addicted to playing their game, I wouldn't want to be treated like a junky.
+I'm not sure where I had first heard the idea to stop calling the people you make your product for "users", but it has always stuck with me. It may not seem like a big deal, to use a term like "user" to describe someone that uses your product, but consider that another term for user is someone that uses drugs. Although developers may want their "players" addicted to playing their game, I wouldn't want to be treated like a junky.
 
 As Jack Dorsey [wrote](http://jacks.tumblr.com/post/33785796042/lets-reconsider-our-users), "While it might be convenient, “users” is a rather passive and abstract word." There is always a better phrase for the people that interact with your products.
 
