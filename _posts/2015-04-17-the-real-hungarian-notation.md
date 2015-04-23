@@ -56,11 +56,11 @@ An example I have seen today is: ```Paint innerCirclePaint = new Paint()```, whe
 
 ## One Practice To Bring Back/Keep
 
-In the most typical Hungarian notation implementation, variables that are members of a class are prefixed with the letter "m_".  Some implementations use "m" or "_", but they represent the same concept, this value represents the state of the object.
+In the most typical Hungarian notation implementation, variables that are members of a class are prefixed with the letter "m\_".  Some implementations use "m" or "\_", but they represent the same concept, this value represents the state of the object.
 
 There are so many bugs that I have found in my career that have resulted on the misuse of a field variable or the overuse of state on an object. The worst offenders, on average, are booleans and they are the biggest code smells for me. 
 
-Outside of an IDE, like the code review page for a [Github](http://github.com) Pull Request, it is very hard to see what variable are members and which ones are local. If we went back to prefixing our variables, with "m", "_", or just "this." ([insert instance reference for your language]), it would improve the process of code reviews and thus maintain great code.
+Outside of an IDE, like the code review page for a [Github](http://github.com) Pull Request, it is very hard to see what variable are members and which ones are local. If we went back to prefixing our variables, with "m", "\_", or just "this." ([insert instance reference for your language]), it would improve the process of code reviews and thus maintain great code.
 
 ## Conclusion
 

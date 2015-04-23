@@ -22,8 +22,12 @@
         <section id="disqus_thread"></section><!-- /#disqus_thread -->
         
         {% include _related_posts.html %}
-      {% else %}
+      {% else if articlePage.layout == "post" %}
         {{ articlePage.content }}
+      
+        {% include _social-share.html %}
+      {% else if page.layout == "page" %}
+        {{ content }}
         
         {% include _social-share.html %}
       {% endif %}
