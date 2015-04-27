@@ -19,6 +19,8 @@ sass:
 gems:
   - jekyll-sitemap
 
+paginate: 5
+
 kramdown:
   auto_ids: true
   footnote_nr: 1

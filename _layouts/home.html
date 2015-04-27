@@ -4,9 +4,27 @@
   {% include _author-bio.html %}
   
   <div id="index">
-    {% for post in site.posts %}  
+    {% for post in paginator.posts %}  
       {% include _article.html %}
     {% endfor %}
+    
+    <aside class="next-posts">
+    {% if paginator.next_page_path %}
+    <a class="prev-post" href="{{ paginator.next_page_path }}">
+      <div>Previous</div>
+    </a>
+    {% else %}
+    <a class="next-post"></a>
+    {% endif %}
+    
+    {% if paginator.previous_page_path %}
+    <a class="next-post" href="{{ paginator.previous_page_path }}">
+      <div>Next</div>
+    </a>
+    {% else %}
+    <a class="prev-post"></a>
+    {% endif %}
+    </aside>
   </div><!-- /#index -->
 </div><!-- /#main -->
 

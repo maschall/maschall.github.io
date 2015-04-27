@@ -314,6 +314,8 @@ $button-size: 1.5rem;
 .byline {
 	clear: both;
 	font-size: 80%;
+  margin-top: -1.5rem;
+  margin-bottom: 2rem;
 }
 .article-author-side,
 .article-author-bottom {
@@ -597,6 +599,21 @@ $button-size: 1.5rem;
 		margin-bottom: 10px;
 		text-transform: uppercase;
 	}
+}
+
+/* Next and Previous Post */
+.next-posts {
+  display: flex;
+  margin-top: 2em;
+  a {
+    min-width: 50%;
+  }
+  .next-post {
+    text-align: right;
+  }
+  h3 {
+    margin-top: 0em;
+  }
 }
 
 

@@ -16,22 +16,13 @@
 
       {% if page.layout == "post" %}
         {{ content }}
-        
-        {% include _social-share.html %}
-      
+        {% include _prev_next_posts.html %}
         <section id="disqus_thread"></section><!-- /#disqus_thread -->
-        
-        {% include _related_posts.html %}
-      {% else if articlePage.layout == "post" %}
+      {% elsif articlePage.layout == "post" %}
         {{ articlePage.content }}
-      
-        {% include _social-share.html %}
-      {% else if page.layout == "page" %}
+      {% elsif page.layout == "page" %}
         {{ content }}
-        
-        {% include _social-share.html %}
       {% endif %}
-      
       
     </div><!-- /.article-wrap -->
 
