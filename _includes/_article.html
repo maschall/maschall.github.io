@@ -16,7 +16,7 @@
 
       {% if page.layout == "post" %}
         {{ content }}
-        {% include _prev_next_posts.html %}
+        {% include _related_posts.html %}
         <section id="disqus_thread"></section><!-- /#disqus_thread -->
       {% elsif articlePage.layout == "post" %}
         {{ articlePage.content }}

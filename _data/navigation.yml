@@ -1,7 +1,10 @@
 # Site navigation links
 
-- title: Subscribe
-  url: http://feeds.feedburner.com/maschall
-  
+- title: Presentations
+  url: /presentation/
+
 - title: About
   url: /about/
+
+- title: Subscribe
+  url: http://feeds.feedburner.com/maschall

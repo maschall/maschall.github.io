@@ -1,0 +1,15 @@
+{% include _head.html %}
+
+<div id="main" role="main">
+  {% include _author-bio.html %}
+  
+  <div id="index">
+    {{ content }}
+    
+    {% for post in site.tags[page.tag] %}  
+      {% include _article.html %}
+    {% endfor %}
+  </div><!-- /#index -->
+</div><!-- /#main -->
+
+{% include _footer.html %}

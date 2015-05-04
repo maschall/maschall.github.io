@@ -4,10 +4,10 @@
   {% include _author-bio.html %}
   
   <div id="index">
-    {% include _title.html %}
-	
-    {% for post in site.posts %}  
-      {% include _article-excerpt.html %}
+    {{ content }}
+    
+    {% for post in site.categories[page.category] %}  
+      {% include _article.html %}
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->
