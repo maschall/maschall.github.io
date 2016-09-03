@@ -1,9 +1,12 @@
-{% include _head.html %}
+---
+layout: default
+---
+{% include post/title.html %}
 
-<div id="main" role="main">
-  {% include _author-bio.html %}
-  
-  {% include _article.html %}
-</div><!-- /#main -->
+<div class="content">
+    {{ content }}
+</div>
 
-{% include _footer.html %}
+{% include post/about.html %}
+
+{% include externals/disqus.html %}

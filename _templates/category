@@ -1,9 +1,0 @@
----
-layout: category
-category: {{ dir }}
-excerpt: ""
-tags: [{{ dir }}]
-hideComments: true
-image:
-  feature: 
----

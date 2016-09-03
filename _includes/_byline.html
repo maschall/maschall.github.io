@@ -1,6 +1,0 @@
-{% assign bylinePage = page %}
-{% if post %}
-	{% assign bylinePage = post %}
-{% endif %}
-
-<p class="byline">published on <time datetime="{{ bylinePage.date | date_to_xmlschema }}">{{ bylinePage.date | date: "%B %d, %Y" }}</time>{% if bylinePage.modified %} and last modified on <time datetime="{{ bylinePage.modified | date: "%Y-%m-%d" }}">{{ bylinePage.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>

@@ -1,1 +1,0 @@
-bundle exec octopress new draft %*

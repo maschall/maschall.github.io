@@ -1,25 +1,36 @@
-# Site wide configuration
-
+# Site settings
 title:            Mark Schall
 locale:           en_US
-url:              http://www.maschall.com
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-image:
-  teaser:
-  feature:
+baseurl: ""
+url: http://www.maschall.com
 
-# Jekyll configuration
+author:
+  fullname: Mark Schall
+  bio: "Polyglot developer with 8 years experience with Objective-C, .NET, Java, Swift, and Ruby, currently working at [Detroit Labs](http://www.detroitlabs.com)."
+  github: maschall
+  twitter: maschall
+  disqus: maschall
+  email: hello@maschall.com
+  stackoverflow: http://stackoverflow.com/users/123456/maschall
+  linkedin: maschall
+
+google_analytics: 'UA-60451793-1'
+
+# Syntax highlighting
+highlightstyle: ''
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
 
 permalink:   date
 markdown:    kramdown
 highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-paginate: 5
 
 kramdown:
   auto_ids: true
@@ -28,38 +39,10 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-
-# Site owner
-owner:
-  name: Mark Schall
-  avatar: bio-photo.png
-  bio: "Polyglot developer with 8 years experience with Objective-C, .NET, Java, Swift, and Ruby, currently working at [Detroit Labs](http://www.detroitlabs.com)."
-  email: hello@maschall.com
-  disqus-shortname: maschall
-  twitter: mark_schall
-  google:
-    plus: #username
-    analytics: UA-60451793-1
-    verify: gcDln25EK7t-wcn_S9H1xZG6W4MDnWEVfjU1HXqHjMs
-    ad-client: 
-    ad-slot:  
-  github: maschall
-  stackoverflow: http://stackoverflow.com/users/123456/maschall
-  linkedin: maschall
-
-include: [".htaccess"]
-exclude: ["Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME"]
-
 # Default extensions
 post_ext: md
 page_ext: md
 draft_ext: md
 
-# Found in _templates/
-post_layout: post
-page_layout: page
-draft_layout: draft
-
 # Format titles with titlecase?
 titlecase: true
-

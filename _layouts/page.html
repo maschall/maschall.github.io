@@ -1,9 +1,8 @@
-{% include _head.html %}
+---
+layout: default
+---
+{% include page/title.html %}
 
-<div id="main" role="main">
-  {% include _author-bio.html %}
-  
-  {% include _article.html %}
-</div><!-- /#index -->
+{{ content }}
 
-{% include _footer.html %}
+{% include page/explore.html %}
