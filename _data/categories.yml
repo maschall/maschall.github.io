@@ -1,8 +1,8 @@
-#- slug: design
-#  name: Design
-#
-#- slug: tools
-#  name: Tools
-#
-#- slug: productivity
-#  name: Productivity
+- slug: development
+  name: Development
+
+- slug: projects
+  name: Projects
+
+- slug: presentations
+  name: Presentations

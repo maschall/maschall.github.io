@@ -1,0 +1,5 @@
+---
+layout: {{ layout }}
+category: {{ title }}
+permalink: /categories/{{ title }}/
+---

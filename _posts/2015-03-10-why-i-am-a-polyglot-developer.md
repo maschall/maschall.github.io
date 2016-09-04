@@ -3,12 +3,12 @@ layout: post
 title: "Why I am a Polyglot Developer"
 date: 2015-03-10T22:55:42-04:00
 modified:
-categories: 
-excerpt: Well I know there is some sort of ego involved, I am a polyglot developer for the ability to solve any problem.
+categories: development
 tags: [developer, polyglot, self]
 image:
   teaser: http://otl.du.edu/wp-content/uploads/2012/11/php-code-300x199.png
 ---
+
 Well I know there is some sort of ego involved, I am a polyglot developer for the ability to solve any problem.  Being able to choose the right tools for a problem is very empowering.
 
 Developing is all about the logic, once you know how to form that, the languages come easy.  Every languages have the same set of basic operations: conditionals, loops, single and multiple objects.  After you know how to combine operations logically, it just takes a small amount of time to learn the syntax of the language.

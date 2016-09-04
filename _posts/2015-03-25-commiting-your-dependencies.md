@@ -3,11 +3,8 @@ layout: post
 title: "Commiting Your Dependencies"
 date: 2015-03-25T19:18:14-04:00
 modified:
-categories: 
-excerpt: You should be commiting your dependencies into your source control to guarantee that everyone is able to build your project at any time.
+categories: development
 tags: [developer, dependencies, sharing-code, principles]
-image:
-  teaser: dependency-management.jpeg
 ---
 
 In the past years, dependency managers have spurred a boom to sharing code.  These tools like [gradle](https://www.gradle.org/), [maven](http://maven.apache.org/), [cocoapods](http://cocoapods.org/), [bundler](http://bundler.io/), and [NuGet](https://www.nuget.org/) provide the means for library developers to get their code to application developers.  Prior to these tools, developers would store their pre-compiled libraries on websites that other developers could download and integrate with their code.  Along with downloading the libraries, developers would then check those libraries into their source controls so that everyone on the team had access to these libraries.
@@ -18,13 +15,9 @@ In theory, developers should only have to commit these dependency files to the s
 
 ### Relying On The Generousity Of Others
 
-![Sharing](http://images.clipartpanda.com/generosity-clipart-gg57697227.jpg)
-
 It's easy to forget that these libraries we are now using come from the hard work of others in the community.  Not only are they producing these libraries for our use, they are also in charge of distributing their libraries or code.  So now, the project is no longer just depending on third-party code, it is depending on a third-party.  If the source of the distribution one day goes down or even worse the owner decides to delete the library, the project will now be broken.
 
 ### Always Be Ready To Ship
-
-![Keep Calm and Always Be Ready](http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-always-be-ready-3.png)
 
 To me, the most important principle for a project is to "always be ready to ship", which means that we can make a build given that we have the source code.  By commiting the dependencies with the source code for the project, we are guaranteeing to the other developers and the build machines that it is ready to go.  There should never be a time that you tell a client that we can't ship because the build server can't get the depenencies needed.
 
@@ -33,8 +26,6 @@ To me, the most important principle for a project is to "always be ready to ship
 Similar to being able to ship, with source control, you should always be able to get back to a point in time in code and it still compiles.  For example, if you need to be able to reproduce a bug that is occurring in production, you should be able to checkout that commit and debug from there.  However, if you are not able to get the correct version of the depency, than you could have issues finding what is causing the bug.  If you commit your dependencies, than the dependencies will also be there when you checkout that commit.
 
 ### Keep It Secure
-
-![Safety First](http://www.bodybalancers.com/assets/img/posts/5.jpg)
 
 Depending on the level of security required for your project, you may not be able to use dependencies, but if you are able to use dependencies you should be reviewing your dependencies and making sure they are secure.  However if you are constantly redownloading the dependencies from a third-party source, it is possible that someone could have replaced the library with a less secure or worse a dangerous copy.  So if you want to maintain the level of security for your application you should be keeping those libraries safe.
 

@@ -3,11 +3,8 @@ layout: post
 title: "10 Lessons a Fraternity Taught Me About Running an Organization"
 date: 2015-05-11T11:10:08-04:00
 modified:
-categories: 
-excerpt:
+categories: development
 tags: [business, fraternity]
-image:
-  feature:
 ---
 
 In the Fall of 2006, I became a brother of the [Triangle Fraternity](http://triangle.org/) MSU chapter, a Fraternity for Engineering, Architecture and Science. During my time as an active brother, I learned a few lessons that have since applied well to the business world.

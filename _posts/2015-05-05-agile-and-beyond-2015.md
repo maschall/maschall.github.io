@@ -3,11 +3,8 @@ layout: post
 title: "Agile and Beyond 2015"
 date: 2015-05-05T12:06:43-04:00
 modified:
-categories: 
-excerpt:
+categories: development
 tags: [conference, agile, review]
-image:
-  feature:
 ---
 
 [Agile and Beyond](http://agileandbeyond.com/) had it's 6th conference on April 30 and May 1 of 2015 and I was lucky to get to go and learn some "new to me" things. I recommend that 

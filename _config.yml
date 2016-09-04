@@ -16,7 +16,7 @@ author:
   twitter: maschall
   disqus: maschall
   email: hello@maschall.com
-  stackoverflow: http://stackoverflow.com/users/123456/maschall
+  stackoverflow: 358713
   linkedin: maschall
 
 google_analytics: 'UA-60451793-1'
@@ -37,7 +37,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 # Default extensions
 post_ext: md
@@ -46,3 +46,7 @@ draft_ext: md
 
 # Format titles with titlecase?
 titlecase: true
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed

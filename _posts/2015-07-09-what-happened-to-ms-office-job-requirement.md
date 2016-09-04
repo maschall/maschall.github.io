@@ -3,11 +3,8 @@ layout: post
 title: "What Happened to MS Office Job Requirement?"
 date: 2015-07-09T21:49:31-04:00
 modified:
-categories: 
-excerpt:
+categories: development
 tags: [software, job-requirements]
-image:
-  teaser:
 ---
 
 I can recall librarians in my schools talking about how important it was to have experience with Microsoft Office experience for your resume, so much that we took quite a bit of time learning a lot of features for Word, Excel and Powerpoint. Today we would all just laugh at a resume that had this called out, because we assume that anyone can put numbers in a table, type a document, or create a slide show (probably full of horrible animations).

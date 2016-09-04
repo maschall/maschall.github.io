@@ -3,11 +3,8 @@ layout: post
 title: "Roman Voting"
 date: 2015-06-22T13:39:17-04:00
 modified:
-categories: 
-excerpt:
+categories: development
 tags: [meetings, tools]
-image:
-  teaser: http://www.thepetroc.com/wp-content/uploads/2012/12/Thumbs-Up-Thumbs-Down-298x223.jpg
 ---
 
 I recently joined a client's team that uses a technique they call Roman Voting to make decisions during meetings. In this technique, when a discussion has been going on for a period of time and a decision is needed, someone will call a vote. The person calling the vote will describe what the options are and how to vote for them. In a typical use case, the options are thumbs up for one option, thumbs down for the other, and sideways for abstaining. Occasionally there may be more than two options, so just using a one to x fingers option can be used.

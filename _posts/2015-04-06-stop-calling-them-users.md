@@ -3,11 +3,9 @@ layout: post
 title: "Stop Calling Them \"Users\""
 date: 2015-04-06T19:52:59-04:00
 modified:
-categories: 
+categories: development
 excerpt:
 tags: []
-image:
-  teaser: user.jpg
 ---
 
 I'm not sure where I had first heard the idea to stop calling the people you make your product for "users", but it has always stucked with me. It may not seem like a big deal, to use a term like "user" to describe someone that uses your product, but consider that another term for user is somoene that uses drugs. Although developers may want their "players" addicted to playing their game, I wouldn't want to be treated like a junky.

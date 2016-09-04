@@ -3,7 +3,7 @@ layout: post
 title: "Presentation: Regular Expressions"
 date: 2015-04-27T15:04:39-04:00
 modified:
-categories: Presentation
+categories: presentation
 excerpt: 
 tags: [presentation, regular-expressions, learning]
 image:

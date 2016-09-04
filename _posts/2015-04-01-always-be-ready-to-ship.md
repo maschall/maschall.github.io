@@ -3,11 +3,9 @@ layout: post
 title: "Always Be Ready to Ship"
 date: 2015-04-01T22:23:30-04:00
 modified:
-categories: 
+categories: development
 excerpt: "Sometimes forces outside of our own team prevent us from being able to work the way we think is best, so instead of \"Always Be Shipping\", we should just \"Always Be Ready to Ship\"."
 tags: [principles, developer, shipping, continuous-deployment]
-image:
- teaser: always-be-shipping.jpg
 ---
 
 In recent years there is a big push towards the principle ["Always Be Shipping"](http://blog.codinghorror.com/yes-but-what-have-you-done/). When most people think about shipping, they think about releasing things to the public, however some alternative interpretations of the principle include beta applications, internal demos, and even updating common libraries that teams may share.

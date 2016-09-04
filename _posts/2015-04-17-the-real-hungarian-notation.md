@@ -3,11 +3,8 @@ layout: post
 title: "The Real Hungarian Notation"
 date: 2015-04-17T16:33:25-04:00
 modified:
-categories: 
-excerpt: Hungarian notation has gotten a bad rap because of a specific implementation, but the principles are still present in today's clean code.
+categories: development
 tags: [developer, hungarian-notation, code-styles]
-image:
-  feature: 
 ---
 
 [Hungarian notation](https://msdn.microsoft.com/en-us/library/aa260976%28v=vs.60%29.aspx) has gotten a bad rap because of a specific implementation that was spread or forced upon the industry for many years. Even with so much negative publicity, the principles are still present in today's clean code.
