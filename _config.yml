@@ -27,7 +27,7 @@ exclude: ["README.md", "README.html"]
 
 permalink:   date
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   auto_ids: true
