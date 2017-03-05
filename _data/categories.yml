@@ -1,8 +1,11 @@
 - slug: development
   name: Development
+  display_in_header: false
 
 - slug: projects
   name: Projects
+  display_in_header: true
 
 - slug: presentations
   name: Presentations
+  display_in_header: true
