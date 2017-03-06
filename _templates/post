@@ -2,6 +2,6 @@
 layout: {{ layout }}
 title: {{ title }}
 modified:
-categories: {{ dir }}
+categories: development
 tags: []
 ---
