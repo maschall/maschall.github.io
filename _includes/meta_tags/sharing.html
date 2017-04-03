@@ -1,5 +1,5 @@
 {% if page.title %} {% assign title = page.title ~ ' - ' ~ page.subtitle %} {% else %} {% assign title = site.title %} {% endif %}
-{% if page.description %} {% assign description = page.description %} {% else %} {% assign description = site.description %} {% endif %}
+{% if page.description %}{% assign description = page.description %}{% elsif page.layout == 'post' and page.content %}{% assign description = page.content %}{% else %}{% assign description = site.description %}{% endif %}
 {% if page.keywords %} {% assign keywords = page.keywords %} {% else %} {% assign keywords = site.keywords %} {% endif %}
 {% if page.cover %} {% assign cover = page.cover %} {% else %} {% assign cover = site.cover %} {% endif %}
 
