@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Mark Schall's Listen Feed</title>
+		<link>http://www.maschall.com</link>
+		<description>This is a feed of MP3s I want to listen to</description>
+    <language>en-us</language>
+    <copyright>Mark Schall</copyright>
+    <atom:link href="http://www.maschall.com/podcast.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jun 2017 21:25:44 -0400</lastBuildDate>
+    <itunes:author>Mark Schall</itunes:author>
+    <itunes:summary>This is a feed of MP3s I want to listen to</itunes:summary>
+    <itunes:owner>
+        <itunes:name>Mark Schall</itunes:name>
+        <itunes:email>hello@maschall.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:category text="Technology"/>
+		<item>
+    	<title>Developing the Leadership within you</title>
+			<link>http://testing.com/Our_first_item.mp3</link>
+			<pubDate>Sun, 04 Jun 2017 21:25:44 -0400</pubDate>
+			<description>Developing the Leadership within you</description>
+   	 	<enclosure url="https://cf-media.sndcdn.com/x4jQqh37DfdZ.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veDRqUXFoMzdEZmRaLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0OTY2MzQ0MTV9fX1dfQ__&Signature=N-b3-P94rdMoMAwiUbyHiUvTFJC8oxMDyjWzH3e2eBxG~hMpc6vZG~9USPE00S9JewOIZ0HPKSVAUQVzrxZcbFMzYsO3nGAYq3yBuYK~d7fPbDoInYJqMLK1hJ~k-XFRBMg9ClB1n1C7qapawOgLYn3eaVK05T7-hkG4Q6HwLusVsG~ViVk9e9JGUwdu6dcjpkbC3XfCFHql7atzOP~5GJWz8kzvXcz-tt8dNo~tqD1SDuoAbq0TAymJ9v-P9KnlhY3LE~hlHfXYySxwjljzwVXhL20pS5wNxaOXuSnuNIzj4GbOKXNRwWjzlINl~pWlongv7zM~ODs9Lahw8oyxfA__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ" length="132324622" type="audio/mpeg"/>
+    	<itunes:summary>Developing the Leadership within you</itunes:summary>
+		</item>
+</channel>
+</rss>
