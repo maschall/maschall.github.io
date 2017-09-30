@@ -1,0 +1,27 @@
+{
+  "activitycontinuation": {
+    "apps": [
+      "PRZ349YUJ3.com.gm.myCadillac.enterprise",
+      "8DPYD7M3EU.com.gm.myCadillac.enterprise"
+    ]
+  },
+  "applinks": {
+    "apps": [
+
+    ],
+    "details": [
+      {
+        "appID": "PRZ349YUJ3.com.gm.myCadillac.enterprise",
+        "paths": [
+          "*"
+        ]
+      },
+      {
+        "appID": "8DPYD7M3EU.com.gm.myCadillac.enterprise",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
