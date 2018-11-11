@@ -1,17 +1,16 @@
 # Site settings
 title:            Mark Schall
 locale:           en_US
-description: "My name is Mark Schall, and this is my personal website. I am a professional polyglot developer with 9 years experience, currently working at Detroit Labs."
+description: "My name is Mark Schall, and this is my personal website. I am a lead developer with 11 years experience, currently working at Detroit Labs."
 
 baseurl: ""
 url: http://www.maschall.com
 
 author:
   fullname: Mark Schall
-  bio: "Polyglot developer with 9 years experience with Objective-C, .NET, Java, Swift, and Ruby, currently working at [Detroit Labs](http://www.detroitlabs.com)."
+  bio: "Lead developer with 11 years experience with mobile, desktop, and server platforms, currently working at [Detroit Labs](http://www.detroitlabs.com)."
   github: maschall
   twitter: maschall
-  disqus: maschall
   email: hello@maschall.com
   stackoverflow: 358713
   linkedin: maschall
